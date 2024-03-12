@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import BG from '@/public/RMC-bg.png';
+import BG from '@/public/RMCBG.png';
 import Navbar from '@/app/components/Navbar';
 import InfoSection from '@/app/components/InfoSection';
 import Resources from '@/app/components/Resources';

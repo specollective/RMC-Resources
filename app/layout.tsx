@@ -2,6 +2,7 @@ import React from 'react';
 import type { Metadata } from 'next';
 import { Montserrat } from 'next/font/google';
 import './globals.css';
+import Footer from '@/app/components/Footer';
 
 const mons = Montserrat({ subsets: ['latin'] });
 
@@ -17,7 +18,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='en'>
-      <body className={`${mons.className}`}>{children}</body>
+      <body className={`${mons.className} `}>
+        {children}
+        <Footer />
+      </body>
     </html>
   );
 }

@@ -22,6 +22,9 @@ export default function InfoSection() {
           <div className={styles.currentDateContainer}>
             <CurrentDate />
           </div>
+          <div className='w-full py-1'>
+            <div className='h-0.5 bg-black mx-auto'></div>
+          </div>
           <ul className={styles.scheduleList}>
             {scheduleItems.map((item, index) => (
               <li key={index}>{item}</li>
