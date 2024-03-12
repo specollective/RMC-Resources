@@ -4,7 +4,7 @@ import FeatureHighlight from '@/app/components/FeatureContent';
 import { scheduleItems } from '@/app/constants/infoSection';
 
 const styles = {
-  infoSection: 'flex flex-col md:flex-row justify-between gap-6 w-full p-6',
+  infoSection: 'flex flex-col md:flex-row justify-between gap-6 w-full',
   featureCard: 'basis-2/3',
   scheduleCard: 'h-full flex flex-col',
   currentDateContainer: 'basis-1/3',

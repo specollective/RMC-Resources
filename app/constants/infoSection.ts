@@ -7,8 +7,8 @@ export const FeatureHighlightContent = {
 };
 
 export const scheduleItems = [
-  'Computer Lab Hours: 1:00p - 4:30p',
-  'Resident Breakfast: 9:00a',
-  'Group study: 3:00p',
-  'Resident Meeting: 8:00p',
+  'Computer Lab Hours: 1:00p - 4:30pm',
+  'Resident Breakfast: 9:00am',
+  'Group study: 3:00pm',
+  'Resident Meeting: 8:00pm',
 ];

@@ -1,28 +1,24 @@
 import Image from 'next/image';
 import BG from '@/public/RMC-bg.png';
 import Navbar from '@/app/components/Navbar';
-import Card from '@/app/components/Card';
 import InfoSection from '@/app/components/InfoSection';
+import Resources from '@/app/components/Resources';
 
 export default function Home() {
   return (
-    <main>
+    <main className='relative min-h-fill w-full'>
       <Image
         src={BG}
         alt='background-image'
         fill
         priority
-        className='min-h-full -z-10 object-cover'
+        className='absolute w-full h-full object-cover -z-10'
       />
-      <Navbar />
-      <div className='relative z-1  text-[#1C1C1C] flex flex-col items-center justify-between w-full py-10'>
+      <div className='relative z-1 text-[#1C1C1C] flex flex-col justify-between w-full py-10 px-5 md:px-40 space-y-4'>
+        <Navbar />
         <InfoSection />
-        <Card>
-          <h2 className='font-bold text-xl mb-2'>Card Title 1</h2>
-          <p>
-            This is the content of card 1. You can place any information here.
-          </p>
-        </Card>
+        <h5>Resources</h5>
+        <Resources />
       </div>
     </main>
   );
