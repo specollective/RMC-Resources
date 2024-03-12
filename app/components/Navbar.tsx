@@ -1,22 +1,27 @@
 import Image from 'next/image';
 import Link from 'next/link';
 
+import ArroyoLogo from '@/public/ArroyoVillageLogo.svg';
+
+const styles = {
+  container: 'flex justify-between items-center py-6 text-black text-lg ',
+  logo: 'flex flex-col gap-2 items-center font-semibold hover:underline ',
+};
+
 const Navbar = () => {
   return (
-    <nav className='flex justify-between items-center p-4 shadow-md'>
-      <div className='flex items-center'>
-        {/* Logo Image: adjust the src and size as needed */}
-        <Image src='/logo.png' alt='Logo' width={50} height={50} />
-        <span className='ml-2 text-lg font-semibold'>Your Logo Text</span>
-      </div>
+    <nav className={styles.container}>
+      <Link href='/' className={styles.logo}>
+        <Image src={ArroyoLogo} alt='Arroyo_Logo' />
+        <span>Resident Resources</span>
+      </Link>
       <div>
-        {/* Language Links */}
-        <Link href='#' locale='en'>
-          <a className='mr-2'>English</a>
+        <Link className='mr-3' href='#' locale='en'>
+          English
         </Link>
         |
-        <Link href='#' locale='es'>
-          <a className='ml-2'>Spanish</a>
+        <Link className='ml-3' href='#' locale='es'>
+          Spanish
         </Link>
       </div>
     </nav>
