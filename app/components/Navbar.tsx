@@ -1,21 +1,21 @@
 import Image from 'next/image';
 import Link from 'next/link';
 
-import ArroyoLogo from '@/public/ArroyoVillageLogo.svg';
+import RMCLogoWhite from '@/public/RMCLogoWhite.png';
 
 const styles = {
-  container: 'flex justify-between items-center py-6 text-black text-lg ',
-  logo: 'flex flex-col gap-2 items-center font-semibold hover:underline ',
+  container: 'flex justify-between items-center text-white text-lg ',
+  logo: 'flex flex-col gap-2 justify-self-center md:items-center font-semibold hover:underline ',
+  languageContainer: 'hidden md:block',
 };
 
 const Navbar = () => {
   return (
     <nav className={styles.container}>
       <Link href='/' className={styles.logo}>
-        <Image src={ArroyoLogo} alt='Arroyo_Logo' />
-        <span>Resident Resources</span>
+        <Image src={RMCLogoWhite} alt='RMCLogoWhite' width={300} height={80} />
       </Link>
-      <div>
+      <div className={styles.languageContainer}>
         <Link className='mr-3' href='#' locale='en'>
           English
         </Link>
