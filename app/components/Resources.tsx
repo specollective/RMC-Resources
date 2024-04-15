@@ -37,18 +37,24 @@ const ResourcesSection = ({ title, resources }: ResourcesSectionProps) => (
 
 export default function Resources() {
   return (
-    <Card className='w-full'>
-      <div className='p-8 space-y-6'>
-        <ResourcesSection title='Local Resources' resources={localResources} />
-        <ResourcesSection
-          title='Career Resources'
-          resources={careerResources}
-        />
-        <ResourcesSection
-          title='Education Resources'
-          resources={educationResources}
-        />
-      </div>
-    </Card>
+    <section>
+      <h1>RESOURCES</h1>
+      <Card className='w-full'>
+        <div className='p-8 space-y-6'>
+          <ResourcesSection
+            title='Local Resources'
+            resources={localResources}
+          />
+          <ResourcesSection
+            title='Career Resources'
+            resources={careerResources}
+          />
+          <ResourcesSection
+            title='Education Resources'
+            resources={educationResources}
+          />
+        </div>
+      </Card>
+    </section>
   );
 }
