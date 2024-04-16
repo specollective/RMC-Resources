@@ -2,8 +2,8 @@ import { formatDate } from '@/app/utils/date';
 
 const stylesDate = {
   container: 'h-full grid grid-cols-2 grid-rows-2 items-center',
-  day: 'col-span-1 row-span-2 justify-self-center text-8xl font-bold',
-  month: 'col-span-1 row-span-1 text-4xl font-bold',
+  day: 'col-span-1 row-span-2 justify-self-center text-7xl font-bold text-[#EB9A60]',
+  month: 'col-span-1 row-span-1 text-3xl font-bold',
   dayOfWeek: 'text-2xl row-span-2',
 };
 

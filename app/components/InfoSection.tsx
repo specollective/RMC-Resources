@@ -4,11 +4,12 @@ import FeatureHighlight from '@/app/components/FeatureContent';
 import { scheduleItems } from '@/constants/infoSection';
 
 const styles = {
-  infoSection: 'flex flex-col md:flex-row justify-between gap-6 w-full h-full',
-  featureCard: 'basis-2/3',
-  scheduleCard: 'flex flex-col p-4',
-  currentDateContainer: 'basis-1/3',
-  scheduleList: 'space-y-2 mt-2 text-lg font-semibold',
+  infoSection:
+    'grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-6',
+  featureCard: 'col-span-2',
+  scheduleCard: 'flex flex-col p-10',
+  currentDateContainer: '',
+  scheduleList: 'space-y-2 mt-2 text-lg font-medium overflow-y-auto h-32',
 };
 
 export default function InfoSection() {
