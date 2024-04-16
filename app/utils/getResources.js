@@ -1,6 +1,6 @@
 import fs from 'fs/promises';
 import path from 'path';
-import { resourceCategories } from '@/constants/resources/resourcesConfig';
+import { resourceCategories } from '@/constants/resourcesCategories';
 
 export async function getResources() {
   const resourcesDirectory = path.join(process.cwd(), 'constants', 'resources');
