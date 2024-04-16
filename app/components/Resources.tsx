@@ -1,7 +1,4 @@
 import Card from './Card';
-import { localResources } from '@/app/constants/localResources';
-import { careerResources } from '@/app/constants/careerResources';
-import { educationResources } from '@/app/constants/educationResources';
 
 export interface Resource {
   title: string;
@@ -11,13 +8,13 @@ export interface Resource {
 
 export interface ResourcesSectionProps {
   title: string;
-  resources: Resource[];
+  // resources: Resource[];
 }
 
-const ResourcesSection = ({ title, resources }: ResourcesSectionProps) => (
+const ResourcesSection = ({ title }: ResourcesSectionProps) => (
   <div>
     <h2 className='font-bold text-xl mb-4'>{title}</h2>
-    <ul>
+    {/* <ul>
       {resources.map((resource, index) => (
         <li key={index} className='hover:underline mb-2'>
           <a
@@ -31,29 +28,22 @@ const ResourcesSection = ({ title, resources }: ResourcesSectionProps) => (
           - {resource.description}
         </li>
       ))}
-    </ul>
+    </ul> */}
   </div>
 );
 
 export default function Resources() {
   return (
-    <section>
-      <h1>RESOURCES</h1>
-      <Card className='w-full'>
-        <div className='p-8 space-y-6'>
-          <ResourcesSection
-            title='Local Resources'
-            resources={localResources}
-          />
-          <ResourcesSection
-            title='Career Resources'
-            resources={careerResources}
-          />
-          <ResourcesSection
-            title='Education Resources'
-            resources={educationResources}
-          />
-        </div>
+    <section id='Resources' className='space-y-6'>
+      <h1 className='text-white'>RESOURCES</h1>
+      <Card className='w-fit p-8'>
+        <ResourcesSection title='Local Resources' />
+      </Card>
+      <Card className='w-fit p-8'>
+        <ResourcesSection title='Career Resources' />
+      </Card>
+      <Card className='w-fit p-8'>
+        <ResourcesSection title='Education Resources' />
       </Card>
     </section>
   );
