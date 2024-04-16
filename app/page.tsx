@@ -3,7 +3,7 @@ import Resources from '@/app/components/Resources';
 
 export default function Home() {
   return (
-    <main>
+    <main className='space-y-20'>
       <InfoSection />
       <Resources />
     </main>

@@ -1,5 +1,6 @@
 import { redirect } from 'next/navigation';
 import { getResources } from '@/app/utils/getResources';
+import Link from 'next/link';
 
 export async function generateStaticParams() {
   const categories = await getResources();
@@ -21,10 +22,14 @@ export default async function CategoriesPage({
   if (!category) {
     redirect('/');
   }
+  // console.log(category.resources)
 
   return (
-    <main>
-      <h1>{category.name}</h1>
+    <main className='text-white space-y-5'>
+      <Link href='/' className='hover:underline'>
+        Back to Resources
+      </Link>
+      <h1 className='text-2xl font-bold'>{category.name}</h1>
       <div>
         {category.resources.map((resource) => (
           <li key={resource.name}>{resource.name}</li>
