@@ -21,7 +21,7 @@ const CategoriesCard = ({ category }: CategoriesCardProps) => {
   const { id, name, topLinks } = category;
 
   return (
-    <Card className='flex flex-col w-fit p-8'>
+    <Card className='flex flex-col p-8'>
       <h2 className='font-bold text-xl mb-4'> {name} </h2>
       {topLinks.map((link: TopLinkType) => (
         <a
@@ -47,13 +47,15 @@ const CategoriesCard = ({ category }: CategoriesCardProps) => {
 
 export default function Resources() {
   return (
-    <section id='Resources' className='space-y-6'>
+    <section id='Resources'>
       <h1 className='text-white'> RESOURCES </h1>
-      {resourceCategories.map((category) => (
-        <div key={category.id}>
-          <CategoriesCard category={category} />
-        </div>
-      ))}
+      <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-6'>
+        {resourceCategories.map((category) => (
+          <div key={category.id}>
+            <CategoriesCard category={category} />
+          </div>
+        ))}
+      </div>
     </section>
   );
 }
