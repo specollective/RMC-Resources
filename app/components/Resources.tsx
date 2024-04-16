@@ -1,60 +1,59 @@
-import Card from './Card';
-import { localResources } from '@/app/constants/localResources';
-import { careerResources } from '@/app/constants/careerResources';
-import { educationResources } from '@/app/constants/educationResources';
+import Card from '@/app/components/Card';
+import { resourceCategories } from '@/constants/resourcesCategories';
+import Link from 'next/link';
 
-export interface Resource {
-  title: string;
+type TopLinkType = {
+  name: string;
   link: string;
-  description: string;
-}
+};
 
-export interface ResourcesSectionProps {
-  title: string;
-  resources: Resource[];
-}
+type CategoryType = {
+  id: string;
+  name: string;
+  topLinks: TopLinkType[];
+};
 
-const ResourcesSection = ({ title, resources }: ResourcesSectionProps) => (
-  <div>
-    <h2 className='font-bold text-xl mb-4'>{title}</h2>
-    <ul>
-      {resources.map((resource, index) => (
-        <li key={index} className='hover:underline mb-2'>
-          <a
-            href={resource.link}
-            className='font-bold'
-            target='_blank'
-            rel='noopener noreferrer'
-          >
-            {resource.title}
-          </a>
-          - {resource.description}
-        </li>
+type CategoriesCardProps = {
+  category: CategoryType;
+};
+
+const CategoriesCard = ({ category }: CategoriesCardProps) => {
+  const { id, name, topLinks } = category;
+
+  return (
+    <Card className='flex flex-col w-fit p-8'>
+      <h2 className='font-bold text-xl mb-4'> {name} </h2>
+      {topLinks.map((link: TopLinkType) => (
+        <a
+          key={`${name}-${link.name}`}
+          href={link.link}
+          target='_blank'
+          className='p-2 hover:underline'
+        >
+          {' '}
+          {link.name}{' '}
+        </a>
       ))}
-    </ul>
-  </div>
-);
+      <Link
+        href={`/${id}`}
+        className='bg-[#FFB47F] rounded-lg p-2.5 hover:underline'
+      >
+        {' '}
+        View More Resources{' '}
+      </Link>
+    </Card>
+  );
+};
 
 export default function Resources() {
   return (
-    <section>
-      <h1>RESOURCES</h1>
-      <Card className='w-full'>
-        <div className='p-8 space-y-6'>
-          <ResourcesSection
-            title='Local Resources'
-            resources={localResources}
-          />
-          <ResourcesSection
-            title='Career Resources'
-            resources={careerResources}
-          />
-          <ResourcesSection
-            title='Education Resources'
-            resources={educationResources}
-          />
+    <section id='Resources' className='space-y-6'>
+      <h1 className='text-white'> RESOURCES </h1>
+      {resourceCategories.map((category) => (
+        <div key={category.id}>
+          <CategoriesCard category={category} />
         </div>
-      </Card>
+      ))}
     </section>
   );
 }

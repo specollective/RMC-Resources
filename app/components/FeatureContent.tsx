@@ -1,11 +1,11 @@
 import Image from 'next/image';
 
-import { FeatureHighlightContent } from '@/app/constants/infoSection';
+import { FeatureHighlightContent } from '@/constants/infoSection';
 
 const styles = {
-  section: 'flex flex-row p-4 gap-4 bg-[#F1F1F1] rounded',
-  imageContainer: 'basis-2/3',
-  contentContainer: 'basis-1/3 py-4',
+  section: 'flex flex-row gap-4',
+  imageContainer: 'basis-1/2 h-full',
+  contentContainer: 'basis-1/2 p-10',
   title: 'text-xl font-bold py-4',
   description: '',
 };

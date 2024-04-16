@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Career Resource 1",
+    "link": "https://example.com/career1",
+    "description": "Description for Career Resource 1."
+  },
+  {
+    "title": "Career Resource 2",
+    "link": "https://example.com/career2",
+    "description": "Description for Career Resource 2."
+  },
+  {
+    "title": "Career Resource 3",
+    "link": "https://example.com/career3",
+    "description": "Description for Career Resource 3."
+  }
+]

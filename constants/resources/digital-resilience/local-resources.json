@@ -1,0 +1,17 @@
+[
+  {
+    "title": "LocalResource 1",
+    "link": "https://example.com/Education1",
+    "description": "Description for LocalResource 1."
+  },
+  {
+    "title": "LocalResource 2",
+    "link": "https://example.com/Education2",
+    "description": "Description for LocalResource 2."
+  },
+  {
+    "title": "LocalResource 3",
+    "link": "https://example.com/Education3",
+    "description": "Description for LocalResource 3."
+  }
+]
