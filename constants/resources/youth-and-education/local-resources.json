@@ -1,17 +1,17 @@
 [
   {
-    "title": "Education Resource 1",
+    "title": "LocalResource 1",
     "link": "https://example.com/Education1",
-    "description": "Description for Education Resource 1."
+    "description": "Description for LocalResource 1."
   },
   {
-    "title": "Education Resource 2",
+    "title": "LocalResource 2",
     "link": "https://example.com/Education2",
-    "description": "Description for Education Resource 2."
+    "description": "Description for LocalResource 2."
   },
   {
-    "title": "Education Resource 3",
+    "title": "LocalResource 3",
     "link": "https://example.com/Education3",
-    "description": "Description for Education Resource 3."
+    "description": "Description for LocalResource 3."
   }
 ]
