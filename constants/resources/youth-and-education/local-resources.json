@@ -1,17 +1,23 @@
 [
   {
     "title": "LocalResource 1",
-    "link": "https://example.com/Education1",
-    "description": "Description for LocalResource 1."
+    "link": "https://example.com/Local1",
+    "description": "Description for LocalResource 1.",
+    "location": "6240 Smith Road Denver CO 80216",
+    "phone": "555-123-1234"
   },
   {
     "title": "LocalResource 2",
-    "link": "https://example.com/Education2",
-    "description": "Description for LocalResource 2."
+    "link": "https://example.com/Local2",
+    "description": "Description for LocalResource 2.",
+    "location": "6240 Smith Road Denver CO 80216",
+    "phone": "555-123-1234"
   },
   {
     "title": "LocalResource 3",
-    "link": "https://example.com/Education3",
-    "description": "Description for LocalResource 3."
+    "link": "https://example.com/Local3",
+    "description": "Description for LocalResource 3.",
+    "location": "6240 Smith Road Denver CO 80216",
+    "phone": "555-123-1234"
   }
 ]

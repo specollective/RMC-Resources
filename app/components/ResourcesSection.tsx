@@ -1,9 +1,11 @@
-import Card from './Card';
 import { formatTitleToId } from '@/app/utils/wordFormat';
+import ResourceCard from '@/app/components/ResourceCard';
 export interface Resource {
   title: string;
   link: string;
   description: string;
+  phone: string;
+  location: string;
 }
 
 export interface ResourcesSectionProps {
@@ -27,18 +29,7 @@ export default function ResourcesSection({
             key={resource.title}
             className='my-8'
           >
-            <Card className=' p-5 text-black space-y-3'>
-              <a
-                href={resource.link}
-                className='font-bold'
-                target='_blank'
-                rel='noopener noreferrer'
-              >
-                {resource.title}
-              </a>
-              <p>{resource.description}</p>
-              <button className='hover:underline'> {resource.link} </button>
-            </Card>
+            <ResourceCard resource={resource} />
           </div>
         ))}
       </div>
