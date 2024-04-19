@@ -21,14 +21,14 @@ const CategoriesCard = ({ category }: CategoriesCardProps) => {
   const { id, name, topLinks } = category;
 
   return (
-    <Card className='flex flex-col p-8'>
+    <Card className='flex flex-col space-y-2 items-center p-8'>
       <h2 className='font-bold text-xl mb-4'> {name} </h2>
       {topLinks.map((link: TopLinkType) => (
         <a
           key={`${name}-${link.name}`}
           href={link.link}
           target='_blank'
-          className='p-2 hover:underline'
+          className='p-3 w-full bg-[#feffff] border rounded-lg p-2.5 hover:underline text-center font-medium'
         >
           {' '}
           {link.name}{' '}
@@ -36,10 +36,10 @@ const CategoriesCard = ({ category }: CategoriesCardProps) => {
       ))}
       <Link
         href={`/${id}`}
-        className='bg-[#FFB47F] rounded-lg p-2.5 hover:underline'
+        className='w-full bg-[#FFB47F] rounded-lg p-2.5 hover:bg-[#FF9244] text-center font-medium'
       >
         {' '}
-        View More Resources{' '}
+        VIEW MORE RESOURCES{' '}
       </Link>
     </Card>
   );
