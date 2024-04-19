@@ -4,6 +4,8 @@ export interface Resource {
   title: string;
   link: string;
   description: string;
+  phone: string;
+  location: string;
 }
 
 export interface ResourcesSectionProps {
@@ -36,8 +38,22 @@ export default function ResourcesSection({
               >
                 {resource.title}
               </a>
-              <p>{resource.description}</p>
-              <button className='hover:underline'> {resource.link} </button>
+              <div className='bg-blue-700'>
+                <p>{resource.description}</p>
+                <div className='bg-red-500'>
+                  <p id='location' className='font-bold'>
+                    Location: {resource.location}
+                  </p>
+                  <p id='phone'>
+                    <span className='font-bold'>Phone: </span>
+                    {resource.phone}
+                  </p>
+                  <button id='link' className='hover:underline'>
+                    {' '}
+                    {resource.link}{' '}
+                  </button>
+                </div>
+              </div>
             </Card>
           </div>
         ))}
