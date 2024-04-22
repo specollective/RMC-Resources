@@ -1,0 +1,52 @@
+[
+  {
+    "title": "Emergency Rental Assistance Program (ERAP)",
+    "button": {
+      "text": "VIEW WEBSITE",
+      "link": "https://cdola.colorado.gov/rental-assistance-program"
+    },
+    "description": "Emergency rental assistance through this program is only available if the tenant is still living at the property.",
+    "location": "N/A",
+    "phone": "(720)-356-0174"
+  },
+  {
+    "title": "Temporary Rental & Utility Assistance (TRUA)",
+    "button": {
+      "text": "VIEW WEBSITE",
+      "link": "https://www.nedenverhousing.org/news-events/temporary-rental-utility-assistance-trua/"
+    },
+    "description": "Offers grants to Denver residents in housing crises, helping to prevent eviction, stabilize housing, and provide assistance with utility payments.",
+    "location": "2416 East Colfax Ave. Denver, CO 80206",
+    "phone": "(303)-399-9337"
+  },
+  {
+    "title": "Denver Housing Authority",
+    "button": {
+      "text": "VIEW WEBSITE",
+      "link": "https://www.denverhousing.org/housing-choice-vouchers-section8/"
+    },
+    "description": "A quasi-municipal corporation managing over 13,000 units and vouchers, offering affordable housing to 26,000 individuals, including low and middle-income families.",
+    "location": "1035 Osage St. Denver, CO 80204",
+    "phone": "(720) 932-3000"
+  },
+  {
+    "title": "Denver Human Services",
+    "button": {
+      "text": "VIEW WEBSITE",
+      "link": "https://denvergov.org/Government/Agencies-Departments-Offices/Agencies-Departments-Offices-Directory/Denver-Human-Services"
+    },
+    "description": "Emergency assistance is available to qualifying Denver County residents only for rent assistance, eviction assistance, 1st month's rent, deposit assistance and utility assistance.",
+    "location": "N/A",
+    "phone": "(720) 944-4DHS (4347)"
+  },
+  {
+    "title": "Village Resource Center",
+    "button": {
+      "text": "VIEW WEBSITE",
+      "link": "https://www.villageresourcecenter.com/"
+    },
+    "description": "Determined to help with the mounting pressure caused by rising rents, VRC formed to pool their resources, to provide for the people in the community who are facing hardship. Together, they formed a 501(c)3 nonprofit, working in Denver, Arapahoe, and Douglas counties, helping individuals and families who are temporarily struggling to afford housing costs. ",
+    "location": "Call for address",
+    "phone": "(720) 636-5382"
+  }
+]
