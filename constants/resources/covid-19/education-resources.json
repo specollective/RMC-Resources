@@ -1,22 +1,36 @@
 [
   {
-    "title": "Education Resource 1",
-    "link": "https://example.com/Education1",
-    "description": "Description for Education Resource 1.",
+    "title": "Let's Talk About COVID-19",
+    "link": "VIEW PDF",
+    "description": "Learn about what COVID-19 is, who can get it, where it came from, variants, how to prevent it and much more.",
     "location": "6240 Smith Road Denver CO 80216",
     "phone": "555-123-1234"
   },
   {
-    "title": "Education Resource 2",
-    "link": "https://example.com/Education2",
-    "description": "Description for Education Resource 2.",
+    "title": "COVID-19 Plan",
+    "link": "VIEW PDF",
+    "description": "Tools, information and action steps to share with your family, friends and healthcare provider.",
     "location": "6240 Smith Road Denver CO 80216",
     "phone": "555-123-1234"
   },
   {
-    "title": "Education Resource 3",
-    "link": "https://example.com/Education3",
-    "description": "Description for Education Resource 3.",
+    "title": "Wash your Hands!",
+    "link": "VIEW PDF",
+    "description": "5 step process to washing your hands good.",
+    "location": "6240 Smith Road Denver CO 80216",
+    "phone": "555-123-1234"
+  },
+  {
+    "title": "Facemask Do's and Don'ts",
+    "link": "VIEW PDF",
+    "description": "Visual instructions of how to wear your facemask properly.",
+    "location": "6240 Smith Road Denver CO 80216",
+    "phone": "555-123-1234"
+  },
+  {
+    "title": "10 Things you can do to Manage COVID-19 ",
+    "link": "VIEW PDF",
+    "description": "10 Things you can do to Manage your COVID-19 Symptoms at home. ",
     "location": "6240 Smith Road Denver CO 80216",
     "phone": "555-123-1234"
   }

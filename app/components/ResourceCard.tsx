@@ -21,17 +21,20 @@ const ResourceCard = ({ resource }: ResourceCardProps) => {
       >
         {resource.title}
       </a>
-      <div className='bg-blue-700'>
+      <div className='grid grid-cols-2 gap-x-10 leading-loose p-1'>
         <p>{resource.description}</p>
-        <div className='bg-red-500'>
+        <div className=''>
           <p id='location' className='font-bold'>
             Location: {resource.location}
           </p>
-          <p id='phone'>
+          <p id='phone' className='mb-4'>
             <span className='font-bold'>Phone: </span>
             {resource.phone}
           </p>
-          <button id='link' className='hover:underline'>
+          <button
+            id='link'
+            className='bg-[#FFB47F] hover:bg-[#FF9244] text-center font-medium py-2 px-4 rounded'
+          >
             {resource.link}
           </button>
         </div>
