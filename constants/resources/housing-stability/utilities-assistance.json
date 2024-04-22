@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Colorado Low-income Energy Assistance Program (LEAP)",
+    "button": {
+      "text": "VIEW WEBSITE",
+      "link": "https://cdhs.colorado.gov/leap"
+    },
+    "description": "LEAP assists households struggling with heating costs beyond their budget, offering financial support through a federally-funded program. Applications are accepted from November to April, with households needing to meet financial and general guidelines for qualification.",
+    "location": "N/A",
+    "phone": "(866) 432-8435"
+  },
+  {
+    "title": "Energy Bill Assistance Programs",
+    "button": {
+      "text": "VIEW WEBSITE",
+      "link": "https://puc.colorado.gov/LIprograms"
+    },
+    "description": "Programs designed to help low-income Coloradans with their energy bills.",
+    "location": "1560 Broadway, Suite 250, Denver, CO 80202",
+    "phone": "(303)-894-2000"
+  },
+  {
+    "title": "Energy Outreach",
+    "button": {
+      "text": "VIEW WEBSITE",
+      "link": "https://www.energyoutreach.org/"
+    },
+    "description": "Statewide non-profit that raises funds to help low-income Coloradans afford home energy",
+    "location": "303 East 17 th ST. Denver, CO. 80203",
+    "phone": "(303)- 825-8750"
+  }
+]

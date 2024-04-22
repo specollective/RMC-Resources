@@ -9,7 +9,7 @@ export const resourceCategories = [
     ],
   },
   {
-    id: 'digital-resilience',
+    id: 'housing-stability',
     name: 'Housing Stability',
     topLinks: [
       { name: 'Emergency Housing', link: 'example.com' },

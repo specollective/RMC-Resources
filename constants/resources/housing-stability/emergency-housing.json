@@ -1,0 +1,102 @@
+[
+  {
+    "title": "Catholic Charities",
+    "button": {
+      "text": "VIEW WEBSITE",
+      "link": "https://ccdenver.org/"
+    },
+    "description": "Offers vital support, including food, shelter, education, counseling, and emergency assistance, reaching tens of thousands of individuals annually.",
+    "location": "6240 Smith Road Denver CO 80216",
+    "phone": "(855) 777-5280"
+  },
+  {
+    "title": "Colorado Coalition for the Homeless",
+    "button": {
+      "text": "VIEW WEBSITE",
+      "link": "https://www.coloradocoalition.org/"
+    },
+    "description": "Offers vital support, including food, shelter, education, counseling, and emergency assistance, reaching tens of thousands of individuals annually.",
+    "location": "2111 Champa St, Denver, CO 80205",
+    "phone": "(303) 293-2217"
+  },
+  {
+    "title": "Jewish Family Service",
+    "button": {
+      "text": "VIEW WEBSITE",
+      "link": "https://www.jewishfamilyservice.org/"
+    },
+    "description": "A nonprofit organization providing human services to all, regardless of circumstances or beliefs, promoting community-wide impact through shared responsibility.",
+    "location": "3201 S Tamarac Dr, Denver, CO 80231",
+    "phone": "(303) 597- 5000"
+  },
+  {
+    "title": "Lawrence Street Community Center",
+    "button": {
+      "text": "VIEW WEBSITE",
+      "link": "https://denverrescuemission.org/who-we-are/locations/lawrence-street-community-center/"
+    },
+    "description": "Provides safe daytime shelter for homeless individuals in Denver, away from street dangers",
+    "location": "2222 Lawrence St. Denver CO 80205",
+    "phone": "(303) 294-0157"
+  },
+  {
+    "title": "New Life Program",
+    "button": {
+      "text": "VIEW WEBSITE",
+      "link": "https://denverrescuemission.org/get-help"
+    },
+    "description": "One year immersive program that includes housing, bible study, education, counseling, life skills development, and work readiness",
+    "location": "6090 Smith Road, Denver CO 80216",
+    "phone": "(303) 953-3939"
+  },
+  {
+    "title": "The Delores Project",
+    "button": {
+      "text": "VIEW WEBSITE",
+      "link": "https://thedeloresproject.org/"
+    },
+    "description": "The Delores Project works alongside individuals as they overcome barriers and challenges; providing shelter, housing, and supportive services,",
+    "location": "Undisclosed",
+    "phone": "(303)-534-5411"
+  },
+  {
+    "title": "The Denver Rescue Mission",
+    "button": {
+      "text": "VIEW WEBSITE",
+      "link": "https://denverrescuemission.org/"
+    },
+    "description": "Provides emergency services, rehabilitation, transitional programs, and community outreach to individuals experiencing homelessness and addiction",
+    "location": "6100 Smith Road, Denver, CO 80216",
+    "phone": "(303) 297-1815"
+  },
+  {
+    "title": "The Denver Samaritan House Overnight Shelter",
+    "button": {
+      "text": "VIEW WEBSITE",
+      "link": "https://ccdenver.org/denver-samaritan-house/"
+    },
+    "description": "Samaritan House offers overnight shelter every day from 5 p.m. to 7:30 a.m., providing 40 dorm-style beds on a first-come, first-served basis. Services include two meals and bathroom facilities. Open to women aged 18 and older, admission is at 2301 Lawrence St. in Denver by 5 p.m., with no need for prior arrangements or referrals.",
+    "location": "2301 Lawrence St, Denver, CO 80205",
+    "phone": "(303) 294-0241"
+  },
+  {
+    "title": "The HOPE Program",
+    "button": {
+      "text": "VIEW WEBSITE",
+      "link": "https://coloradohealthnetwork.org/hope/?lang=es"
+    },
+    "description": "HOPE provides a safe and inclusive day shelter for homeless individuals living with HIV, fostering community, growth, and prioritizing health.",
+    "location": "6260 East Colfax Ave Denver, CO 80220",
+    "phone": "(303) 837- 1501"
+  },
+  {
+    "title": "Housing Connector",
+    "button": {
+      "text": "VIEW WEBSITE",
+      "link": "https://www.housingconnector.com/"
+    },
+    "description": "Housing Connector is a tech-for-good nonprofit that increases access to housing for individuals most in need. We do this by solving financial and residen challenges for property managers so they can open doors to more people in the community, and by streamliningthe housing search experience for services providers with our Zillow powered marketplace.",
+    "location": "N/A",
+    "phone": "N/A"
+  }
+]
