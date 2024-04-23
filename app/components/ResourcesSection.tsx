@@ -2,10 +2,13 @@ import { capitalizeWords, formatTitleToId } from '@/app/utils/wordFormat';
 import ResourceCard from '@/app/components/ResourceCard';
 export interface Resource {
   title: string;
-  link: string;
   description: string;
   phone: string;
   location: string;
+  button: {
+    link: string;
+    text: string;
+  };
 }
 
 export interface ResourcesSectionProps {

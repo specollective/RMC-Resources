@@ -1,7 +1,10 @@
 [
   {
     "title": "COVID-19 Graphics in Denver.",
-    "link": "VIEW PDF",
+    "button": {
+      "text": "VIEW PDF",
+      "link": ""
+    },
     "description": "View data collected in Denver, CO.",
     "location": "6240 Smith Road Denver CO 80216",
     "phone": "555-123-1234"
