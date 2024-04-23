@@ -16,13 +16,13 @@ interface ResourceCardProps {
 const styles = {
   card: 'p-5 text-black space-y-3',
   linkTitle: 'font-bold hover:underline',
-  grid: 'grid grid-cols-2 gap-x-10 leading-loose p-1',
-  description: '',
-  flex: 'flex flex-col',
+  grid: 'grid grid-cols-5 gap-x-10 leading-loose p-1',
+  description: 'col-span-3',
+  flex: 'col-span-2 flex flex-col',
   boldText: 'font-bold',
   phoneMargin: 'mb-4',
   button:
-    'w-fit bg-[#FFB47F] hover:bg-[#FF9244] text-center font-medium py-2 px-10 rounded',
+    'w-fit self-center bg-[#FFB47F] hover:bg-[#FF9244] text-center font-medium py-2 px-10 rounded',
 };
 
 const ResourceCard = ({ resource }: ResourceCardProps) => {
