@@ -26,12 +26,12 @@ export default async function CategoriesPage({
   }
 
   return (
-    <main className='text-white space-y-5'>
+    <main className='text-white '>
       <Link href='/' className='hover:underline'>
         Back to Resources
       </Link>
-      <section className='flex flex-row'>
-        <div className='basis-5/12'>
+      <section className='flex flex-row py-5'>
+        <div id='sidebar' className='basis-5/12'>
           <h1 className='text-2xl font-bold'>{category.name}</h1>
           <ResourcesSidebar resources={category.resources} />
         </div>
