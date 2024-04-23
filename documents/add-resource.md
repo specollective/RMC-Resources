@@ -55,5 +55,15 @@ After you have added the new JSON object:
 - Click on **Propose changes** to save the updates.
 <img width="400" alt="image" src="https://github.com/specollective/RMC-Resources/assets/92892101/4ed9cf3d-2414-4584-ab71-a962a97751be">
 
+## Step 8: Open up a Pull Request (PR)
+You will then be prompted to open a pull request. This will help show the reviewer the change you made, and allow any further edits. 
+
+<img width="400" alt="image" src="https://github.com/specollective/RMC-Resources/assets/92892101/6bb3333a-71ba-4e80-b403-2a1b9dd64470">
+
+## Step 9: Make sure all checks pass
+An automatic check will happen once you open your pull request. We want to make sure all checks pass. If it does not, please reach out for help. 
+
+<img width="400" alt="image" src="https://github.com/specollective/RMC-Resources/assets/92892101/15204078-99cf-4895-a7bd-ef229920a2a4">
+
 
 This guide should help you successfully add new resources to your JSON file on GitHub. Ensure that your file syntax is correct to prevent any issues with your application or website that utilizes this JSON file.
