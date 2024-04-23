@@ -48,5 +48,13 @@
     "description": "10 Things you can do to Manage your COVID-19 Symptoms at home. ",
     "location": "6240 Smith Road Denver CO 80216",
     "phone": "555-123-1234"
+  },
+  {
+    "title": "Vaccines for Kids",
+    "button": {
+      "text": "View PDF",
+      "link": "https://drive.google.com/file/d/1IrW3HsjkGMWxDH9poPvggtgvB-yAE_QC/view?usp=sharing"
+    },
+    "description": "Pediatric Vaccine Comparison for Children under 5 years. There are two types of vaccines available for young children. Learn about their differences in this PDF."
   }
 ]
