@@ -1,9 +1,9 @@
 import fs from 'fs/promises';
 import path from 'path';
-import { resourceCategories } from '@/constants/resourcesCategories';
+import { resourceCategories } from '@/content/resourcesCategories';
 
 export async function getResources() {
-  const resourcesDirectory = path.join(process.cwd(), 'constants', 'resources');
+  const resourcesDirectory = path.join(process.cwd(), 'content', 'resources');
   const categoriesWithFiles = [];
 
   for (const category of resourceCategories) {
