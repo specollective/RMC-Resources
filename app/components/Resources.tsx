@@ -1,5 +1,5 @@
 import Card from '@/app/components/Card';
-import { resourceCategories } from '@/constants/resourcesCategories';
+import { resourceCategories } from '@/content/resourcesCategories';
 import Link from 'next/link';
 
 type TopLinkType = {

@@ -1,6 +1,6 @@
 import Image from 'next/image';
 
-import { FeatureHighlightContent } from '@/constants/infoSection';
+import { FeatureHighlightContent } from '@/content/infoSection';
 
 const styles = {
   section: 'flex flex-row gap-4',

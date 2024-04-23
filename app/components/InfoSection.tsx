@@ -1,7 +1,7 @@
 import Card from '@/app/components/Card';
 import CurrentDate from '@/app/components/CurrentDate';
 import FeatureHighlight from '@/app/components/FeatureContent';
-import { scheduleItems } from '@/constants/infoSection';
+import { scheduleItems } from '@/content/infoSection';
 
 const styles = {
   infoSection:
