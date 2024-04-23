@@ -1,42 +1,60 @@
 [
   {
     "title": "Vaccines for Kids",
-    "link": "VIEW PDF",
+    "button": {
+      "text": "VIEW PDF",
+      "link": ""
+    },
     "description": "Pediatric Vaccine Comparison for Children under 5 years. THere are two types of vaccines available for young children. Learn about their differences.",
     "location": "6240 Smith Road Denver CO 80216",
     "phone": "555-123-1234"
   },
   {
     "title": "How Protein Subunit COVID-19 Vaccines Work",
-    "link": "VIEW PDF",
+    "button": {
+      "text": "VIEW PDF",
+      "link": ""
+    },
     "description": "Protein subunit vaccines are a type of vaccine that contains harmless copies of the COVID-19 spike protein. These vaccines do not contain the entire virus.",
     "location": "6240 Smith Road Denver CO 80216",
     "phone": "555-123-1234"
   },
   {
     "title": "What does the COVID-19 Test really tell me?",
-    "link": "VIEW PDF",
+    "button": {
+      "text": "VIEW PDF",
+      "link": ""
+    },
     "description": "Learn about the different kinds of COVID-19 tests, and when to take them. You can also learn about Rapid tests and how to store them.",
     "location": "6240 Smith Road Denver CO 80216",
     "phone": "555-123-1234"
   },
   {
     "title": "COVID-19 Testing Types",
-    "link": "VIEW PDF",
+    "button": {
+      "text": "VIEW PDF",
+      "link": ""
+    },
     "description": "Learn about the 3 types of COVID-19 tests- Molecular, Antigen and Serologicals.",
     "location": "6240 Smith Road Denver CO 80216",
     "phone": "555-123-1234"
   },
   {
     "title": "CDC's Bridge Access Program",
-    "link": "VIEW PDF",
+    "button": {
+      "text": "VIEW PDF",
+      "link": ""
+    },
     "description": "Adults can get COVID-19 vaccines at no cost to them! The distribution of COVID-19 vaccines changed in September 2023 as these products moved the commerical market.",
     "location": "6240 Smith Road Denver CO 80216",
     "phone": "555-123-1234"
   },
   {
     "title": "How to order free federal government rapid tests.",
-    "link": "VIEW PDF",
+    "button": {
+      "text": "VIEW PDF",
+      "link": ""
+    },
     "description": "Adults can get COVID-19 vaccines at no cost to them! The distribution of COVID-19 vaccines changed in September 2023 as these products moved the commerical market.",
     "location": "6240 Smith Road Denver CO 80216",
     "phone": "555-123-1234"
