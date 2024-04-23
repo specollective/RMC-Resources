@@ -5,7 +5,7 @@ export const resourceCategories = [
     topLinks: [
       { name: 'Vaccines & Tests', link: 'https://drive.google.com/file/d/17NuHQgMCEJ_sz8Ws4bqpUttXpzC4PY1H/view?usp=sharing' },
       { name: 'Symptoms & Prevention', link: 'example2.com' },
-      { name: 'Covid Stats in Denver', link: 'example3.com },
+      { name: 'Covid Stats in Denver', link: 'example3.com' },
     ],
   },
   {
