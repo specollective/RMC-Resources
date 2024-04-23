@@ -54,7 +54,7 @@ export const resourceCategories = [
     ],
   },
   {
-    id: 'additional-resourcse',
+    id: 'additional-resources',
     name: 'Additional Resources',
     topLinks: [
       { name: 'Clothing', link: 'https://drive.google.com/file/d/1aqmoxXj6rGWZPFBNp51aLV1aAfXvFf0P/view?usp=sharing' },
