@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import React, { useState } from 'react';
 import { capitalizeWords, formatTitleToId } from '@/app/utils/wordFormat';
 
 export interface Resource {
@@ -39,6 +39,18 @@ export default function ResourcesSidebar({ resources }: ResourcesSectionProps) {
     setOpenCategory(openCategory === name ? '' : name);
   };
 
+  const handleScrollToElement = (
+    event: React.MouseEvent<HTMLAnchorElement, MouseEvent>,
+    title: string
+  ) => {
+    event.preventDefault();
+    const id = formatTitleToId(title);
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  };
+
   return (
     <ul className={styles.list}>
       {resources.map((category) => (
@@ -66,6 +78,7 @@ export default function ResourcesSidebar({ resources }: ResourcesSectionProps) {
             {category.data.map((resource, index) => (
               <li key={index} className={styles.listItemInner}>
                 <a
+                  onClick={(e) => handleScrollToElement(e, resource.title)}
                   href={`#${formatTitleToId(resource.title)}`}
                   className={styles.link}
                 >
