@@ -4,8 +4,8 @@ interface ResourceCardProps {
   resource: {
     title: string;
     description: string;
-    phone: string;
-    location: string;
+    phone?: string;
+    location?: string;
     button: {
       link: string;
       text: string;
@@ -16,11 +16,13 @@ interface ResourceCardProps {
 const styles = {
   card: 'p-5 text-black space-y-3',
   linkTitle: 'font-bold hover:underline',
-  grid: 'grid grid-cols-2 gap-x-10 leading-loose p-1',
+  grid: 'grid grid-cols-5 gap-x-10 leading-loose p-1',
+  description: 'col-span-3',
+  flex: 'col-span-2 flex flex-col',
   boldText: 'font-bold',
   phoneMargin: 'mb-4',
   button:
-    'bg-[#FFB47F] hover:bg-[#FF9244] text-center font-medium py-2 px-4 rounded',
+    'w-fit self-center bg-[#FFB47F] hover:bg-[#FF9244] text-center font-medium py-2 px-10 rounded',
 };
 
 const ResourceCard = ({ resource }: ResourceCardProps) => {
@@ -35,14 +37,21 @@ const ResourceCard = ({ resource }: ResourceCardProps) => {
         {resource.title}
       </a>
       <div className={styles.grid}>
-        <p>{resource.description}</p>
-        <div>
-          <p id='location' className={styles.boldText}>
-            Location: {resource.location}
-          </p>
-          <p id='phone' className={`${styles.boldText} ${styles.phoneMargin}`}>
-            Phone: {resource.phone}
-          </p>
+        <p className={styles.description}>{resource.description}</p>
+        <div className={styles.flex}>
+          {resource.location && (
+            <p id='location' className={styles.boldText}>
+              Location: {resource.location}
+            </p>
+          )}
+          {resource.phone && (
+            <p
+              id='phone'
+              className={`${styles.boldText} ${styles.phoneMargin}`}
+            >
+              Phone: {resource.phone}
+            </p>
+          )}
           <a
             id='link'
             href={resource.button.link}
