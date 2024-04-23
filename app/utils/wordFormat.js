@@ -6,3 +6,13 @@ export function formatTitleToId(title) {
     .replace(/\s+/g, '-')
     .replace(/[^a-z0-9-]/gi, '');
 }
+
+export function capitalizeWords(input) {
+  const words = input.split(' ');
+  const capitalizedWords = words.map((word) => {
+    return word.length > 0
+      ? word[0].toUpperCase() + word.substring(1).toLowerCase()
+      : '';
+  });
+  return capitalizedWords.join(' ');
+}

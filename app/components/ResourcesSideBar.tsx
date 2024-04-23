@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { formatTitleToId } from '@/app/utils/wordFormat';
+import { capitalizeWords, formatTitleToId } from '@/app/utils/wordFormat';
 
 export interface Resource {
   title: string;
@@ -60,7 +60,7 @@ export default function ResourcesSidebar({ resources }: ResourcesSectionProps) {
                 />
               </svg>
             </span>
-            {category.name}
+            {capitalizeWords(category.name)}
           </h3>
           <ul className={styles.nestedList(openCategory === category.name)}>
             {category.data.map((resource, index) => (
