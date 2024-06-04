@@ -1,32 +1,42 @@
 [
   {
-    "title": "Career Resource 1",
+    "title": "Center for Work Education & Employment (CWEE)",
     "button": {
       "text": "VIEW WEBSITE",
-      "link": "https://example.com/"
+      "link": "https://cwee.org/"
     },
-    "description": "Description for Career Resource 1.",
-    "location": "6240 Smith Road Denver CO 80216",
-    "phone": "555-123-1234"
+    "description": "Personal and professional skills training, employment services, and comprehensive family support",
+    "location": "1175 Osage St., Suite 300 Denver, CO 80204",
+    "phone": "(303) 892-8444"
   },
   {
-    "title": "Career Resource 2",
+    "title": "Colorado Workforce Centers",
     "button": {
       "text": "VIEW WEBSITE",
-      "link": "https://example.com/"
+      "link": "https://www.denvergov.org/Government/Agencies-Departments-Offices/Agencies-Departments-Offices-Directory/Economic-Development-Opportunity/Employers-Jobseekers"
     },
-    "description": "Description for Career Resource 2.",
-    "location": "6240 Smith Road Denver CO 80216",
-    "phone": "555-123-1234"
+    "description": "Provides a variety of free services to employers and job seekers",
+    "location": "Various locations throughout Colorado",
+    "phone": "(720) 337- 9675"
   },
   {
-    "title": "Career Resource 3",
+    "title": "Employment Assistance",
     "button": {
       "text": "VIEW WEBSITE",
-      "link": "https://example.com/"
+      "link": "https://cdhs.colorado.gov/benefits-assistance/employment-assistance"
     },
-    "description": "Description for Career Resource 3.",
-    "location": "6240 Smith Road Denver CO 80216",
-    "phone": "555-123-1234"
+    "description": "The Colorado Department of Human Services provides several types of employment assistance across a number of divisions (below)",
+    "location": "1575 Sherman St. Denver, CO 80203",
+    "phone": "(303) 866- 5700"
+  },
+    {
+    "title": "Employment Solutions",
+    "button": {
+      "text": "VIEW WEBSITE",
+      "link": "https://employmentsolutions.com/"
+    },
+    "description": "Find employment and fill job openings with enterprise-level staffing solutions, search Denver, CO for specific region",
+    "location": "2460 W. 26th Ave, Ste. 250C Denver, CO 80211",
+    "phone": "(303) 455-4415"
   }
 ]
