@@ -2,7 +2,6 @@
 // the grid is implemented using tailwind CSS and should stack on mobile devices
 
 export default function CommunitiesGrid() {
-
   return (
     <div className='grid grid-cols-1 gap-4 md:grid-cols-3 text-center'>
       <div className='bg-white p-4 py-10 rounded-lg shadow-md'>
