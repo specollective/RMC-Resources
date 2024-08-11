@@ -7,7 +7,8 @@ import { FeatureHighlightContent } from '@/content/infoSection';
 const styles = {
   section: 'flex flex-row gap-4',
   imageContainer: 'md:basis-1/2 h-full hidden md:block object-cover',
-  contentContainer: 'md:flex items-center justify-center md:block md:basis-1/2 p-10',
+  contentContainer:
+    'md:flex items-center justify-center md:block md:basis-1/2 p-10',
   title: 'text-xl font-bold md:text-2xl md:text-center',
   description: '',
 };
