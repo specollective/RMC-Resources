@@ -20,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang='en'>
       <body className={`h-full ${mons.className} `}>
-        <div className='relative z-1 text-[#1C1C1C] flex flex-col justify-between w-full py-5 px-5 md:px-40 space-y-20'>
+        <div className='relative z-1 text-[#1C1C1C] flex flex-col justify-between w-full py-5 px-5 md:px-40 space-y-5 md:space-y-20'>
           <Navbar />
           {children}
         </div>

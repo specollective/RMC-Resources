@@ -6,7 +6,7 @@ import { scheduleItems } from '@/content/infoSection';
 const styles = {
   infoSection:
     'grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-6',
-  featureCard: 'col-span-2',
+  featureCard: 'col-span-2 bg-[#FFCCA8] md:bg-[#FFFFFF] px-0 md:px-0',
   scheduleCard: 'flex flex-col p-10',
   currentDateContainer: '',
   scheduleList: 'space-y-2 mt-2 text-lg font-medium overflow-y-auto h-32',
@@ -14,6 +14,7 @@ const styles = {
 
 export default function InfoSection() {
   return (
+    // <>
     <div className={styles.infoSection}>
       <Card className={styles.featureCard}>
         <FeatureHighlight />
@@ -32,5 +33,6 @@ export default function InfoSection() {
         </ul>
       </Card>
     </div>
+    // </>
   );
 }
