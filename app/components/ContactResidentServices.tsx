@@ -3,9 +3,9 @@ import Card from '@/app/components/Card';
 
 export default function ContactResidentServices() {
   return (
-    <section id='Contact-Resident-Services'>
+    <section>
       <h1 className='text-white'>CONTACT RESIDENT SERVICES</h1>
-      <Card className='grid grid-cols-3 gap-8 p-10'>
+      <Card className='grid grid-cols-1 lg:grid-cols-3 gap-8 p-10'>
         {contactServices.map((contact) => (
           <div
             key={contact.name}
@@ -22,7 +22,7 @@ export default function ContactResidentServices() {
             </a>
           </div>
         ))}
-        <div className='col-span-3 text-center'>
+        <div className='lg:col-span-3 text-center'>
           <p className='font-semibold'>Resident Services Drop-box</p>
           <p className=''>Located on All Properties</p>
         </div>
